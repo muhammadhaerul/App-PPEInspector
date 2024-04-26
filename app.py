@@ -59,7 +59,7 @@ elif source_radio == settings.VIDEO:
     helper.detect_video(confidence, model)
 
 elif source_radio == settings.WEBCAM:
-    helper.detect_video(confidence, model)
+    helper.detect_webcam(confidence, model)
 
 elif source_radio == settings.RTSP:
     helper.detect_rtsp_stream(confidence, model)
