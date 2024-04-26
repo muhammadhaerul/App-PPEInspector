@@ -11,7 +11,7 @@ import helper
 
 # Setting page layout
 st.set_page_config(
-    page_title="Dashboard Deteksi APD K3",
+    page_title="PPE Detection Dashboard",
     page_icon="🧑‍🚒",
     layout="wide",
     initial_sidebar_state="expanded"
