@@ -26,14 +26,16 @@ SOURCES_LIST = [IMAGE, VIDEO, WEBCAM]
 
 # Images config
 IMAGES_DIR = ROOT / 'images'
-DEFAULT_IMAGE = IMAGES_DIR / 'ppe1.jpg'
-DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'ppe1_output.jpg'
+DEFAULT_IMAGE = IMAGES_DIR / 'default_image_ppe.jpg'
+DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'default_image_ppe_output.jpg'
 
 # Videos config
 VIDEO_DIR = ROOT / 'videos'
 VIDEO_1_PATH = VIDEO_DIR / 'video_ppe1.mp4'
+VIDEO_2_PATH = VIDEO_DIR / 'video_ppe2.mp4'
 VIDEOS_DICT = {
     'video_1': VIDEO_1_PATH,
+    'video_2': VIDEO_2_PATH,
 }
 
 # ML Model config
